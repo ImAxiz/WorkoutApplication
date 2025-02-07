@@ -25,7 +25,24 @@ namespace WorkoutApplication.Model
                 },
                 new Exercise
                 {
-
+                    Id = 2,
+                    Title = "Slaalomhüpped",
+                    Description = "Kükist hüpped küljelt küljele",
+                    Intensity = Exercise.ExerciseIntensity.High,
+                    RecommendedDurationInSeconds = 40,
+                    RecommendedTimeInSecondsBeforeExercise = 10,
+                    RecommendedTimeInSecondsAfterExercise = 10,
+                    RestTimeInstructions = "Venita reie esikülge"
+                },
+                new Exercise
+                {
+                    Id = 3,
+                    Title = "Alt läbi jooks",
+                    Description = "Toenglamangus jooksmine",
+                    Intensity = Exercise.ExerciseIntensity.Normal,
+                    RecommendedDurationInSeconds = 40,
+                    RecommendedTimeInSecondsBeforeExercise = 10,
+                    RecommendedTimeInSecondsAfterExercise = 10
                 });
         }
 
